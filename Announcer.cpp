@@ -1,5 +1,6 @@
 // Player Login & Logout Announcement Script (Cata 4.3.4)
 // Ported from JerCore's Lua Script
+// TODO- Add on/off in worldserver config
 
 #include "ScriptPCH.h"     
 #include "DBCStores.h"
@@ -146,3 +147,4 @@ void AddSC_Announcer()
 {
     new player_login_logout_spy();
 }
+
